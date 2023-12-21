@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <main className='relative bg-pale-blue'>
+    <main className='relative bg-gray-200'>
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />

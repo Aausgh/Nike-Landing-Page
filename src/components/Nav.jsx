@@ -20,9 +20,11 @@ const Nav = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className='font-montserrat leading-normal text-lg text-red-600'
+                className='group font-montserrat leading-normal text-lg text-red-600 transition-all duration-300 ease-in-out'
               >
-                {item.label}
+                <span className="bg-left-bottom bg-gradient-to-l from-red-600 to-blue-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  {item.label}
+                </span>
               </a>
             </li>
           ))}
